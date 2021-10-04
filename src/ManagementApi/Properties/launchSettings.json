@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "ManagementApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "local",
+        "BROADCASTER_ENVIRONMENT": "local"
+      },
+      "applicationUrl": "https://localhost:8442;http://localhost:8441"
+    }
+  }
+}

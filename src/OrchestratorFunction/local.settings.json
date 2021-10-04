@@ -1,0 +1,22 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "BROADCASTER_ENVIRONMENT": "local",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "{{appInsightInstrumentationKey}}",
+    "BuildVersion": "local-Api",
+    "CosmosDbConfiguration:EndpointUrl": "https://localhost:8081",
+    "CosmosDbConfiguration:DatabaseName": "VoiceToText",
+    "CosmosDbConfiguration:PrimaryKey": "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==",
+    "AzServicePrincipalConfiguration:ApplicationClientId": "",
+    "AzServicePrincipalConfiguration:ApplicationClientSecret": "",
+    "AzServicePrincipalConfiguration:SubscriptionId": "",
+    "AzServicePrincipalConfiguration:TenantId": "",
+    "AzureAdConfiguration:Instance": "https://login.microsoftonline.com/",
+    "AzureAdConfiguration:TenantId": "",
+    "BotServiceAuthenticationConfiguration:BotServiceApiClientId": "",
+    "BotServiceAuthenticationConfiguration:ClientId": "",
+    "BotServiceAuthenticationConfiguration:ClientSecret": ""
+  }
+}

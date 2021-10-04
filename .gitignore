@@ -350,9 +350,4 @@ MigrationBackup/
 .ionide/
 
 # Configuration files in the solution
-src/BotService/Properties/launchSettings.json
-src/ManagementApi/Properties/launchSettings.json
 src/BotService/cache
-src/ManagementApi/appsettings.**.json
-src/BotService/appsettings.**.json
-**/local.settings.json

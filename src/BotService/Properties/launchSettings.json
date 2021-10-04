@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "BotService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "BROADCASTER_ENVIRONMENT": "local",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CERTIFICATE_FILE_NAME": "v2t.1sg.vn.pfx",
+        "GST_DEBUG": "3"
+      },
+      "applicationUrl": "https://localhost:9442;http://localhost:9441"
+    }
+  }
+}

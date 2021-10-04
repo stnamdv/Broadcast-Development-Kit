@@ -38,9 +38,11 @@ namespace BotService
 
         public static async Task Main(string[] args)
         {
+
             await Init(args);
 
             var isService = !(Debugger.IsAttached || args.Contains("--console"));
+            Console.Write($"{isService}");
 
             if (isService)
             {
